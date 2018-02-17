@@ -1,0 +1,26 @@
+{
+  "name": "graphql-demo-express",
+  "version": "1.0.0",
+  "description": "GraphQL Demo with Express and Google Directions API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waterswv/graphql-demo-express.git"
+  },
+  "author": "Bryan Mierke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/waterswv/graphql-demo-express/issues"
+  },
+  "homepage": "https://github.com/waterswv/graphql-demo-express#readme",
+  "dependencies": {
+    "@google/maps": "^0.4.5",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.13.1",
+    "mongoose": "^5.0.6"
+  }
+}
